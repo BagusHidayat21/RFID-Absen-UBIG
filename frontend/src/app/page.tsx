@@ -10,5 +10,7 @@ export default function Home() {
     router.push("/dashboard"); 
   }, [router]);
 
+  // Redirect to the dashboard page
+  useEffect
   return null;
 }
