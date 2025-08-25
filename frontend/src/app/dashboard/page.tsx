@@ -541,7 +541,7 @@ export default function RealtimeAttendanceDisplay() {
 
             {/* Status Indicator - dengan informasi lebih detail */}
             <div className="fixed bottom-6 right-6">
-                <div className="bg-white rounded-full shadow-2xl p-4 border border-blue-200">
+                <div className="bg-white rounded-full shadow-1xl p-4 border border-blue-200">
                     <div className="flex items-center gap-3">
                         <div className="w-3 h-3 bg-blue-500 rounded-full animate-pulse"></div>
                         <span className="text-sm text-blue-700 font-bold">Live</span>
